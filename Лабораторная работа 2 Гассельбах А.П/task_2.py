@@ -13,5 +13,5 @@ for month in range(months):
 
     spend += spend * increase
 
-money_capital = round(money_capital) + 1 // Добавляем единицу, потому что в итоге у нас появляется остаток, который тоже нужно заплатить
+money_capital = round(money_capital) + 1 // Добавляем единицу, потому что в итоге у нас появляется остаток, который тоже нужно оплатить
 print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", money_capital)
